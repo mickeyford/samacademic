@@ -1,7 +1,8 @@
 <?php include './config/url.php';
 
 if (!empty($_GET['url'])) {
-    $url_auxiliar = "/academic/" . $_GET['url'];
+    //$url_auxiliar = "/academic/" . $_GET['url'];
+    $url_auxiliar = "/" . $_GET['url'];
     $url_array = explode('/', $_GET['url']);
     $url_server = $_SERVER["REQUEST_URI"];
     //echo $url_auxiliar . '<br>';
