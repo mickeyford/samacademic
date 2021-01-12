@@ -1,3 +1,3 @@
 <?php
 
-define('URL', 'https://git.heroku.com/stormy-garden-35830.git');
+define('URL', 'https://samacademic.herokuapp.com/');
