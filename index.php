@@ -5,13 +5,13 @@ if (!empty($_GET['url'])) {
     $url_auxiliar = "/" . $_GET['url'];
     $url_array = explode('/', $_GET['url']);
     $url_server = $_SERVER["REQUEST_URI"];
-    //echo $url_auxiliar . '<br>';
-    //echo $url_server. '<br>';
-    //echo $_GET['url'].'<br>';
-    //print_r($url_array).'<br>';
+    echo $url_auxiliar . '<br>';
+    echo $url_server . '<br>';
+    echo $_GET['url'] . '<br>';
+    print_r($url_array) . '<br>';
     $title = "";
-    //echo URL.'/public/images/logologin.svg"';
-    //echo $_GET['url'];
+    echo URL . '/public/images/logologin.svg"';
+    echo "<br>" . $_GET['url'];
     switch ($_GET['url']) {
         case 'login':
             $title = 'Iniciar sesión en SAM';
